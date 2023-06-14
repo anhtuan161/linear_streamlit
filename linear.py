@@ -10,7 +10,7 @@ import streamlit as st
 df = pd.read_csv("credit access.csv", encoding='latin-1')
 
 st.title("NHÓM 2 NHS  ")
-st.write("## NHÓM GỒM 13 THÀNH VIÊN CỘM CÁN - DỰ BÁO SỐ TIỀN CHO VAY
+st.write(" NHÓM GỒM 13 THÀNH VIÊN CỘM CÁN - DỰ BÁO SỐ TIỀN CHO VAY")
 
 uploaded_file = st.file_uploader("Choose a file", type=['csv'])
 if uploaded_file is not None:
