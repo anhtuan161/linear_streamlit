@@ -11,7 +11,6 @@ df = pd.read_csv("credit access.csv", encoding='latin-1')
 
 st.title("NHÓM 2 - LỚP NGÂN HÀNG SỐ  ")
 st.write(" NHÓM GỒM 13 THÀNH VIÊN CỘM CÁN - DỰ BÁO SỐ TIỀN CHO VAY")
-st.image("2.png")
 
 uploaded_file = st.file_uploader("Choose a file", type=['csv'])
 if uploaded_file is not None:
@@ -53,9 +52,9 @@ if choice == 'Mục tiêu của mô hình':
     
     st.image("LSM.jpg")
 
-elif choice == 'Xây dựng mô hình':
-    st.subheader("Xây dựng mô hình")
-    st.write("##### 1. Hiển thị dữ liệu")
+elif choice == 'Xây dựng mô hình - nhóm 2':
+    st.subheader("Xây dựng mô hình- nhóm 2 ")
+    st.write("##### 1. Hiển thị dữ liệu - nhóm 2")
     st.dataframe(df.head(3))
     st.dataframe(df.tail(3))  
     
