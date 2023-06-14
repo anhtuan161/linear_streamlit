@@ -51,7 +51,7 @@ if choice == 'Mục tiêu của mô hình':
     #st.image("LSM.png")
     #st.image("LSM_1.png")
     
-    st.image("3.png")
+    st.image("4.png")
 
 elif choice == 'Xây dựng mô hình':
     st.subheader("Xây dựng mô hình")
