@@ -9,7 +9,7 @@ import streamlit as st
 
 df = pd.read_csv("credit access.csv", encoding='latin-1')
 
-st.title("NHÓM 2 NHS  ")
+st.title("NHÓM 2 - LỚP NGÂN HÀNG SỐ  ")
 st.write(" NHÓM GỒM 13 THÀNH VIÊN CỘM CÁN - DỰ BÁO SỐ TIỀN CHO VAY")
 st.image("2.png")
 
