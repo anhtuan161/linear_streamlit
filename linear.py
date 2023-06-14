@@ -47,8 +47,10 @@ if choice == 'Mục tiêu của mô hình':
     ###### Mô hình được xây dựng để dự báo giá trị vay vốn của nông hộ dựa trên các biến đặc điểm chủ hộ, điều kiện của nông hộ.
     """)  
     st.write("""###### Mô hình sử dụng thuật toán LinearRegression""")
-    st.image("LSM.png")
-    st.image("LSM_1.png")
+    #st.image("LSM.png")
+    #st.image("LSM_1.png")
+    st.image("2.png")
+    st.image("3.png")
 
 elif choice == 'Xây dựng mô hình':
     st.subheader("Xây dựng mô hình")
