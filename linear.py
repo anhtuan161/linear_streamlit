@@ -12,6 +12,8 @@ df = pd.read_csv("credit access.csv", encoding='latin-1')
 st.title("NHÓM 2 NHS  ")
 st.write(" NHÓM GỒM 13 THÀNH VIÊN CỘM CÁN - DỰ BÁO SỐ TIỀN CHO VAY")
 
+st.image("2.png")
+
 uploaded_file = st.file_uploader("Choose a file", type=['csv'])
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file, encoding='latin-1')
@@ -49,7 +51,7 @@ if choice == 'Mục tiêu của mô hình':
     st.write("""###### Mô hình sử dụng thuật toán LinearRegression""")
     #st.image("LSM.png")
     #st.image("LSM_1.png")
-    st.image("2.png")
+    
     st.image("3.png")
 
 elif choice == 'Xây dựng mô hình':
